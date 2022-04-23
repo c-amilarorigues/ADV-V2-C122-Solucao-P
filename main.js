@@ -40,7 +40,7 @@ recognition.onresult = function(event) {
     }
     else
     {
-      document.getElementById("status").innerHTML = "A fala não foi reconhecida."; 
+      document.getElementById("status").innerHTML = "O número não foi reconhecido."; 
     }
 
 }
