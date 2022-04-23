@@ -62,8 +62,8 @@ function draw() {
       y = Math.floor(Math.random() * 400);
       image(apple, x, y, 50, 50);
     }
-    document.getElementById("status").innerHTML = to_number + "Maçãs desenhadas";
-    speak_data = to_number + "Maçãs desenhadas";
+    document.getElementById("status").innerHTML = to_number + " maçãs desenhadas";
+    speak_data = to_number + " maçãs desenhadas";
     speak();
     draw_apple = "";
   }
